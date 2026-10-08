@@ -44,8 +44,8 @@ A searchable reading library and interactive Arduino ebook reader, with theme sw
 ## Current Focus
 
 ```text
-learning   → real-time operating systems
-exploring  → wireless communication protocols
+learning  → embedded RTOS
+exploring → wireless protocols
 ```
 
 ## GitHub Statistics
