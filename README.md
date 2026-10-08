@@ -11,6 +11,7 @@ I build microcontroller-based systems and the software around them, from STM32 a
 ## Tech Stack
 
 <p>
+  <img src="https://skillicons.dev/icons?i=c" width="36" height="36" alt="C" />&nbsp;
   <img src="https://skillicons.dev/icons?i=python" width="36" height="36" alt="Python" />&nbsp;
   <img src="https://skillicons.dev/icons?i=js" width="36" height="36" alt="JavaScript" />&nbsp;
   <img src="https://skillicons.dev/icons?i=nodejs" width="36" height="36" alt="Node.js" />&nbsp;
@@ -19,27 +20,29 @@ I build microcontroller-based systems and the software around them, from STM32 a
   <img src="https://skillicons.dev/icons?i=git" width="36" height="36" alt="Git" />
 </p>
 
-- **Embedded:** STM32, ESP32, sensor integration, OTA workflows
+- **Embedded:** C, STM32, ESP32, ThreadX, Modbus, sensor integration
 - **Backend:** JavaScript, Node.js, Express, PostgreSQL
 - **Python & audio:** NumPy, SciPy, whisper.cpp, sounddevice
 - **Web & tools:** HTML, CSS, Git, Docker Compose
 
 ## Featured Projects
 
-### [Mertani OTA Server](https://github.com/dst0x/mertani_ota-server)
+### [Mertani OTA Server](https://github.com/dst0x/dstx-mertani-ota-server)
 Firmware management backend for microcontroller updates, with authenticated administration, MTI packaging, integrity checks, and device update endpoints.
 
 `Node.js` `Express` `PostgreSQL` `Docker Compose`
 
-### [BabelSync](https://github.com/dst0x/DST0X-Babelsync)
-Windows voice translation with inbound and outbound audio pipelines: speech segmentation, local transcription, translation services, and virtual audio playback.
+### [STM32F412 / ThreadX](https://github.com/dst0x/dstx-stm32f412-threadx)
+A firmware framework with a modular board support layer, concurrent LED and UART tasks, and a CMake cross-compilation workflow.
 
-`Python` `whisper.cpp` `NumPy` `SciPy`
+`C` `STM32F412` `ThreadX` `CMake`
 
-### [Bana Reading Interface](https://github.com/dst0x/DST0X-Bana)
-A searchable reading library and interactive Arduino ebook reader, with theme switching and keyboard and touch navigation.
+### [Mertani Board Support](https://github.com/dst0x/dstx-mertani-board-support)
+STM32G0 board support with sensor drivers, configurable UART routing, I2C, and a Modbus RTU slave interface.
 
-`HTML` `CSS` `JavaScript` · [Demo ↗](https://bana-sandy.vercel.app/)
+`C` `STM32G0` `Modbus RTU` `I2C`
+
+**More projects:** [Sensor Node](https://github.com/dst0x/dstx-stm32f412-sensor-node) · [SEN66 Gateway](https://github.com/dst0x/dstx-sen66-modbus-gateway) · [BabelSync](https://github.com/dst0x/dstx-babelsync) · [Bana](https://github.com/dst0x/dstx-bana)
 
 ## Current Focus
 
