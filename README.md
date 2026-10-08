@@ -2,50 +2,59 @@
 
 **Firmware & IoT Developer**
 
-I work on microcontroller-based systems and the software around them, from sensor integration to firmware update workflows. My projects also explore Python audio processing and web interfaces.
+I work on embedded systems and the software infrastructure around them — writing firmware for STM32 and ESP32 microcontrollers, building OTA update backends, integrating sensors, and developing the tools that make connected devices manageable in production.
 
-## About Me
+Based in Yogyakarta, Indonesia. Currently building IoT infrastructure at **Mertani** and exploring RTOS and wireless protocols for next-generation device connectivity.
 
-Based in Yogyakarta, Indonesia. My focus is hardware–software integration, with STM32 and ESP32 as my main embedded platforms.
-
-I am interested in practical tools that help people operate, maintain, and interact with connected devices.
+---
 
 ## Tech Stack
 
-- **Embedded platforms:** STM32, ESP32
-- **Languages:** Python, JavaScript, SQL, HTML, CSS
-- **Backend & data:** Node.js, Express, PostgreSQL
-- **Tools & integrations:** Git, Docker Compose, whisper.cpp
+**Embedded Platforms**  
+STM32 · ESP32 · OTA firmware updates · Sensor integration · Board support packages
 
-## Featured Projects
+**Backend & Data**  
+Node.js · Express · PostgreSQL · Docker Compose
 
-### [OTA Firmware Server](https://github.com/dst0x/mertani_ota-server)
+**Scripting & Audio**  
+Python · NumPy · SciPy · whisper.cpp · sounddevice
 
-A firmware management backend for microcontroller update workflows. Includes authenticated administration, firmware upload, MTI packaging, integrity checks, and device update endpoints.
+**Frontend**  
+HTML · CSS · JavaScript
 
-**Built with:** Node.js, Express, PostgreSQL, Docker Compose.
+**Tools**  
+Git · Docker · Cloudflare Tunnels
 
-### [BabelSync](https://github.com/dst0x/DST0X-Babelsync)
+---
 
-A Windows voice translation application with separate inbound and outbound audio pipelines. Combines speech segmentation, local transcription, translation services, and speech playback through virtual audio devices.
+## Projects
 
-**Built with:** Python, whisper.cpp, NumPy, SciPy, sounddevice, VB-Audio Virtual Cable.
+**[Mertani OTA Server](https://github.com/dst0x/mertani_ota-server)**  
+Firmware management backend for IoT devices. Handles binary uploads, SHA-256 integrity checks, device polling, versioned release management, and public deployment via Cloudflare Tunnels.  
+`Node.js` · `Express` · `PostgreSQL` · `Docker Compose`
 
-### [Bana Reading Interface](https://github.com/dst0x/DST0X-Bana)
+**[BabelSync](https://github.com/dst0x/DST0X-Babelsync)**  
+Windows voice translation application with separate inbound and outbound audio pipelines — speech segmentation, local transcription via whisper.cpp, translation, and virtual audio device playback.  
+`Python` · `whisper.cpp` · `NumPy` · `SciPy`
 
-A browser-based reading project with a searchable resource library and an interactive Arduino ebook reader. Includes theme switching, content filters, and keyboard and touch navigation.
+**[Bana Reading Interface](https://github.com/dst0x/DST0X-Bana)**  
+Browser-based reading interface with searchable resource library, Arduino ebook reader, theme switching, and keyboard/touch navigation.  
+`HTML` · `CSS` · `JavaScript` · [Live →](https://bana-sandy.vercel.app)
 
-**Built with:** HTML, CSS, JavaScript.
+---
 
-## Current Focus
+## GitHub Stats
 
-- Real-time operating systems for embedded development
-- Wireless communication protocols
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dst0x&show_icons=true&hide_border=true&count_private=true&theme=default)
 
-## GitHub Statistics
+---
 
-My [repositories](https://github.com/dst0x?tab=repositories) and [contribution activity](https://github.com/dst0x#year-list-container) are available on GitHub.
+## Currently
+
+Exploring real-time operating systems and wireless communication protocols for embedded systems.
+
+---
 
 ## Contact
 
-[Portfolio](https://danisetiyono0x.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/dani-setiyono-911a1628a/) · [Email](mailto:hii.dst0x@gmail.com)
+[Portfolio](https://danisetiyono0x.vercel.app) · [LinkedIn](https://www.linkedin.com/in/dani-setiyono-911a1628a/) · [hii.dst0x@gmail.com](mailto:hii.dst0x@gmail.com)
