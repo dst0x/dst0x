@@ -50,7 +50,7 @@ Technologies I have used across firmware, web, mobile, and Python projects.
 
 ## Featured Projects
 
-### [Mertani OTA Server](https://github.com/dst0x/dstx-mertani-ota-server)
+### [Demo Dashboard OTA Server](https://github.com/dst0x/dstx-demo-dashboard-ota-server)
 Firmware management backend for microcontroller updates, with authenticated administration, MTI packaging, integrity checks, and device update endpoints.
 
 `Node.js` `Express` `PostgreSQL` `Docker Compose`
