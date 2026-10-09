@@ -13,6 +13,14 @@ I build microcontroller-based systems and the software around them, from STM32 a
 Technologies I have used across firmware, web, mobile, and Python projects.
 
 <p>
+  <img src="https://cdn.simpleicons.org/stmicroelectronics/54B5E8" width="32" height="32" alt="STM32 (STMicroelectronics)" title="STM32" />&nbsp;
+  <img src="https://skillicons.dev/icons?i=arduino" width="32" height="32" alt="Arduino" title="Arduino" />&nbsp;
+  <img src="https://cdn.simpleicons.org/espressif/E7352C" width="32" height="32" alt="ESP32 (Espressif)" title="ESP32" />
+  <br />
+  <sub>STM32 · Arduino · ESP32</sub>
+</p>
+
+<p>
   <img src="https://skillicons.dev/icons?i=c" width="32" height="32" alt="C" />
   <img src="https://skillicons.dev/icons?i=cpp" width="32" height="32" alt="C++" />
   <img src="https://skillicons.dev/icons?i=rust" width="32" height="32" alt="Rust" />
