@@ -6,7 +6,7 @@
 
 ## About Me
 
-I build microcontroller-based systems and the software around them, from STM32 and ESP32 sensor integration to firmware update workflows. My projects also include web dashboards, Flutter applications, Python data tooling, and voice translation.
+I build microcontroller-based systems and the software around them, from STM32 and ESP32 sensor integration with ThreadX and Zephyr RTOS to firmware update workflows. My projects also include web dashboards, Flutter applications, Python data tooling, and voice translation.
 
 ## Tech Stack
 
@@ -18,6 +18,16 @@ Technologies I have used across firmware, web, mobile, and Python projects.
   <img src="https://cdn.simpleicons.org/espressif/E7352C" width="32" height="32" alt="ESP32 (Espressif)" title="ESP32" />
   <br />
   <sub>STM32 · Arduino · ESP32</sub>
+</p>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=azure" width="32" height="32" alt="Azure RTOS / ThreadX" title="Azure RTOS / ThreadX" />&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zephyrproject-rtos/zephyr/main/doc/_static/images/logo-readme-dark.svg" />
+    <img src="https://raw.githubusercontent.com/zephyrproject-rtos/zephyr/main/doc/_static/images/logo-readme-light.svg" height="32" alt="Zephyr RTOS" title="Zephyr RTOS" />
+  </picture>
+  <br />
+  <sub>Azure RTOS / ThreadX · Zephyr RTOS</sub>
 </p>
 
 <p>
@@ -37,13 +47,13 @@ Technologies I have used across firmware, web, mobile, and Python projects.
   <img src="https://skillicons.dev/icons?i=git" width="32" height="32" alt="Git" />
 </p>
 
-- **Embedded:** C, C++, STM32, ESP32, Arduino, ThreadX, CMSIS, STM32 HAL, FatFs
-- **Interfaces:** Modbus RTU, RS485, I2C, UART, sensor integration, OTA workflows
+- **Embedded:** C, C++, STM32, ESP32, Arduino, ThreadX (Azure RTOS), Zephyr RTOS, CMSIS, STM32 HAL, FatFs
+- **Interfaces:** Modbus RTU, RS485, I2C, UART, MQTT, ESP-AT, sensor integration, OTA workflows
 - **Web:** JavaScript, TypeScript, HTML, CSS, React, Next.js, Vite, Tailwind CSS
 - **Backend & data:** Node.js, Express, FastAPI, PostgreSQL, MongoDB, Supabase, Firebase
 - **Mobile:** Dart, Flutter
 - **Python & audio:** NumPy, pandas, SciPy, Matplotlib, whisper.cpp, sounddevice
-- **Tools:** Git, Docker Compose, CMake, GNU Make, PlatformIO, STM32CubeIDE, OpenOCD
+- **Tools:** Git, Docker Compose, CMake, GNU Make, PlatformIO, STM32CubeIDE, OpenOCD, west, Kconfig, Devicetree
 
 <details>
 <summary>Additional libraries and project tooling</summary>
@@ -57,6 +67,11 @@ Technologies I have used across firmware, web, mobile, and Python projects.
 </details>
 
 ## Featured Projects
+
+### [STM32F412 / Zephyr Sensor Node](https://github.com/dst0x/dst0x-app_zephyr)
+Zephyr-based firmware with separate command, sensor, and communication threads, Modbus sensor integration, SD-card storage, and ESP32 connectivity through ESP-AT for MQTT telemetry.
+
+`C` `STM32F412` `Zephyr RTOS` `ESP32` `MQTT` `Modbus RTU`
 
 ### [Demo Dashboard OTA Server](https://github.com/dst0x/dstx-demo-dashboard-ota-server)
 Firmware management backend for microcontroller updates, with authenticated administration, MTI packaging, integrity checks, and device update endpoints.
@@ -78,7 +93,7 @@ STM32G0 board support with sensor drivers, configurable UART routing, I2C, and a
 ## Current Focus
 
 ```text
-learning  → embedded RTOS
+learning  → Zephyr RTOS, Kconfig, and Devicetree
 exploring → wireless protocols
 ```
 
