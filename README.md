@@ -94,6 +94,7 @@ STM32G0 board support with sensor drivers, configurable UART routing, I2C, and a
 
 ```text
 learning  → Zephyr RTOS, Kconfig, and Devicetree
+building  → bootloader development
 exploring → wireless protocols
 ```
 
